@@ -1,0 +1,26 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+<div>
+<h4 class="card-title">항공사: ${save.airlineNm}</h4>
+<h4 class="card-title">출발공항: ${save.depAirportNm}</h4>
+<h4 class="card-title">도착공항: ${save.arrAirportNm}</h4>
+<h4 class="card-title">출발시간: ${save.depPlandTime}</h4>
+<h4 class="card-title">도착시간: ${save.arrPlandTime}</h4>
+<h4 class="card-title">이코노미: ${save.economyCharge}</h4>
+<h4 class="card-title">비지니스: ${save.prestigeCharge}</h4>
+<h4 class="card-title">항공기번호: ${save.vihicleId}</h4>
+
+</div>
+---------------------------------------------------------
+
+</body>
+</html>
